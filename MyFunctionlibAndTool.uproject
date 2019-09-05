@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{D720EF86-48CF-6DE9-A066-42AA7E821A34}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MyFunctionlibAndTool",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

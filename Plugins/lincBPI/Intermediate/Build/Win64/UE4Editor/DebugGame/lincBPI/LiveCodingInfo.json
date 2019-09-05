@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.lincBPI.cpp.obj": [
+			"lincBPI.cpp.obj",
+			"lincBPIBPLibrary.cpp.obj"
+		],
+		"Module.lincBPI.gen.cpp.obj": [
+			"lincBPI.init.gen.cpp.obj",
+			"lincBPIBPLibrary.gen.cpp.obj"
+		]
+	}
+}

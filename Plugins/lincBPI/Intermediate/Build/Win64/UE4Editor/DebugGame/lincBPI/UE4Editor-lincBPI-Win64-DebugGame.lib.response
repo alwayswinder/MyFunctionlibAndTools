@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-lincBPI-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\selfSpace\UEProje\MyProject422\Intermediate\Build\Win64\MyProject422Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"D:\selfSpace\UEProje\MyProject422\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\DebugGame\lincBPI\Module.lincBPI.cpp.obj"
+"D:\selfSpace\UEProje\MyProject422\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\DebugGame\lincBPI\Module.lincBPI.gen.cpp.obj"
+"D:\selfSpace\UEProje\MyProject422\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\DebugGame\lincBPI\Default.rc2.res"
+/OUT:"D:\selfSpace\UEProje\MyProject422\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\DebugGame\lincBPI\UE4Editor-lincBPI-Win64-DebugGame.lib"
+/INCLUDE:IMPLEMENT_MODULE_lincBPI

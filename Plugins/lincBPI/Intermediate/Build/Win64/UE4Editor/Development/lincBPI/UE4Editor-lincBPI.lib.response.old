@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-lincBPI.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\selfSpace\UEProje\MyFunctionlibAndTool\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.cpp.obj"
+"D:\selfSpace\UEProje\MyFunctionlibAndTool\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.gen.cpp.obj"
+"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"D:\selfSpace\UEProje\MyFunctionlibAndTool\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\UE4Editor-lincBPI.lib"
+/INCLUDE:IMPLEMENT_MODULE_lincBPI
