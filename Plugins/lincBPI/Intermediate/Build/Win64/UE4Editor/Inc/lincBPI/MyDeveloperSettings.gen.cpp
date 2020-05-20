@@ -45,6 +45,7 @@ void EmptyLinkFunctionForGeneratedCodeMyDeveloperSettings() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyDeveloperSettings_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "DisplayName", "MyDeveloperSettings" },
 		{ "IncludePath", "MyDeveloperSettings.h" },
 		{ "ModuleRelativePath", "Public/MyDeveloperSettings.h" },
@@ -56,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeMyDeveloperSettings() {}
 		{ "ModuleRelativePath", "Public/MyDeveloperSettings.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UMyDeveloperSettings_Statics::NewProp_MyHostIP = { "MyHostIP", nullptr, (EPropertyFlags)0x0010000000004015, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyDeveloperSettings, MyHostIP), METADATA_PARAMS(Z_Construct_UClass_UMyDeveloperSettings_Statics::NewProp_MyHostIP_MetaData, ARRAY_COUNT(Z_Construct_UClass_UMyDeveloperSettings_Statics::NewProp_MyHostIP_MetaData)) };
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UMyDeveloperSettings_Statics::NewProp_MyHostIP = { "MyHostIP", nullptr, (EPropertyFlags)0x0010000000004015, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyDeveloperSettings, MyHostIP), METADATA_PARAMS(Z_Construct_UClass_UMyDeveloperSettings_Statics::NewProp_MyHostIP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyDeveloperSettings_Statics::NewProp_MyHostIP_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyDeveloperSettings_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyDeveloperSettings_Statics::NewProp_MyHostIP,
 	};
@@ -71,12 +72,12 @@ void EmptyLinkFunctionForGeneratedCodeMyDeveloperSettings() {}
 		nullptr,
 		Z_Construct_UClass_UMyDeveloperSettings_Statics::PropPointers,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		ARRAY_COUNT(Z_Construct_UClass_UMyDeveloperSettings_Statics::PropPointers),
+		UE_ARRAY_COUNT(Z_Construct_UClass_UMyDeveloperSettings_Statics::PropPointers),
 		0,
 		0x001000A6u,
-		METADATA_PARAMS(Z_Construct_UClass_UMyDeveloperSettings_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UMyDeveloperSettings_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UMyDeveloperSettings_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UMyDeveloperSettings_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UMyDeveloperSettings()
 	{
@@ -87,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeMyDeveloperSettings() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyDeveloperSettings, 2474411493);
+	IMPLEMENT_CLASS(UMyDeveloperSettings, 847574258);
 	template<> LINCBPI_API UClass* StaticClass<UMyDeveloperSettings>()
 	{
 		return UMyDeveloperSettings::StaticClass();

@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodelincBPI_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x8D6D30C7,
+				0x6955F3D8,
 				0xA742998D,
 				METADATA_PARAMS(nullptr, 0)
 			};

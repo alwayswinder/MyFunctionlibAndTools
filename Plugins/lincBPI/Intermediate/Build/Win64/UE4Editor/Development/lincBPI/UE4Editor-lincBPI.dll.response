@@ -6,7 +6,7 @@
 /SUBSYSTEM:WINDOWS
 /FIXED:No
 /NXCOMPAT
-/STACK:5000000
+/STACK:12000000
 /DELAY:UNLOAD
 /DLL
 /PDBALTPATH:%_PDB%
@@ -17,8 +17,8 @@
 /ignore:4099
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
-/LIBPATH:"D:\Software\VS2017\VC\Tools\MSVC\14.16.27023\lib\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\lib\um\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x64"
 /NODEFAULTLIB:"LIBCMT"
@@ -32,10 +32,10 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
-"D:\selfSpace\UEProje\MyFunctionlibAndTool\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.cpp.obj"
-"D:\selfSpace\UEProje\MyFunctionlibAndTool\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.gen.cpp.obj"
-"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+"E:\SelfSpace\MyFunctionlibAndTools\Intermediate\Build\Win64\MyFunctionlibAndToolEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"E:\SelfSpace\MyFunctionlibAndTools\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.cpp.obj"
+"E:\SelfSpace\MyFunctionlibAndTools\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.gen.cpp.obj"
+"E:\SelfSpace\MyFunctionlibAndTools\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Default.rc2.res"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -60,14 +60,14 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
-"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
-"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
-"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
-"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\UE4Editor-UnrealEd.lib"
-"D:\selfSpace\UE4Code\UnrealEngine-4.22\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
-/OUT:"D:\selfSpace\UEProje\MyFunctionlibAndTool\Plugins\lincBPI\Binaries\Win64\UE4Editor-lincBPI.dll"
-/IMPLIB:"D:\selfSpace\UEProje\MyFunctionlibAndTool\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\UE4Editor-lincBPI.suppressed.lib"
-/PDB:"D:\selfSpace\UEProje\MyFunctionlibAndTool\Plugins\lincBPI\Binaries\Win64\UE4Editor-lincBPI.pdb"
+"D:\UnrealRes\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"D:\UnrealRes\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"D:\UnrealRes\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
+"D:\UnrealRes\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
+"D:\UnrealRes\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\UE4Editor-UnrealEd.lib"
+"D:\UnrealRes\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+/OUT:"E:\SelfSpace\MyFunctionlibAndTools\Plugins\lincBPI\Binaries\Win64\UE4Editor-lincBPI.dll"
+/IMPLIB:"E:\SelfSpace\MyFunctionlibAndTools\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\UE4Editor-lincBPI.suppressed.lib"
+/PDB:"E:\SelfSpace\MyFunctionlibAndTools\Plugins\lincBPI\Binaries\Win64\UE4Editor-lincBPI.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_lincBPI

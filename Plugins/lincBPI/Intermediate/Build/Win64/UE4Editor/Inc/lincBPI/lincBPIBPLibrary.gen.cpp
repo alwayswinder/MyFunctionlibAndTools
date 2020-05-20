@@ -28,7 +28,7 @@ void EmptyLinkFunctionForGeneratedCodelincBPIBPLibrary() {}
 			{ "AddRowDT", &UlincBPIBPLibrary::execAddRowDT },
 			{ "WriteToText_String", &UlincBPIBPLibrary::execWriteToText_String },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics
 	{
@@ -66,7 +66,7 @@ void EmptyLinkFunctionForGeneratedCodelincBPIBPLibrary() {}
 		{ "ModuleRelativePath", "Public/lincBPIBPLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UlincBPIBPLibrary, nullptr, "AddRowDT", sizeof(lincBPIBPLibrary_eventAddRowDT_Parms), Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UlincBPIBPLibrary, nullptr, "AddRowDT", nullptr, nullptr, sizeof(lincBPIBPLibrary_eventAddRowDT_Parms), Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -109,11 +109,12 @@ void EmptyLinkFunctionForGeneratedCodelincBPIBPLibrary() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::Function_MetaDataParams[] = {
 		{ "Category", "lincBPI" },
+		{ "Comment", "//\x09UFUNCTION(BlueprintCallable, meta = (DisplayName = \"Execute Sample function\", Keywords = \"lincBPI sample test testing\"), Category = \"lincBPITesting\")\n//\x09static float lincBPISampleFunction(float Param);\n" },
 		{ "ModuleRelativePath", "Public/lincBPIBPLibrary.h" },
 		{ "ToolTip", "UFUNCTION(BlueprintCallable, meta = (DisplayName = \"Execute Sample function\", Keywords = \"lincBPI sample test testing\"), Category = \"lincBPITesting\")\nstatic float lincBPISampleFunction(float Param);" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UlincBPIBPLibrary, nullptr, "WriteToText_String", sizeof(lincBPIBPLibrary_eventWriteToText_String_Parms), Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UlincBPIBPLibrary, nullptr, "WriteToText_String", nullptr, nullptr, sizeof(lincBPIBPLibrary_eventWriteToText_String_Parms), Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -142,8 +143,8 @@ void EmptyLinkFunctionForGeneratedCodelincBPIBPLibrary() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_lincBPI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UlincBPIBPLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT, "AddRowDT" }, // 2601539389
-		{ &Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String, "WriteToText_String" }, // 4168117751
+		{ &Z_Construct_UFunction_UlincBPIBPLibrary_AddRowDT, "AddRowDT" }, // 1634720109
+		{ &Z_Construct_UFunction_UlincBPIBPLibrary_WriteToText_String, "WriteToText_String" }, // 2758131413
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UlincBPIBPLibrary_Statics::Class_MetaDataParams[] = {
@@ -162,12 +163,12 @@ void EmptyLinkFunctionForGeneratedCodelincBPIBPLibrary() {}
 		FuncInfo,
 		nullptr,
 		nullptr,
-		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x000000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UlincBPIBPLibrary_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UlincBPIBPLibrary_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(Z_Construct_UClass_UlincBPIBPLibrary_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UlincBPIBPLibrary_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UlincBPIBPLibrary()
 	{
@@ -178,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodelincBPIBPLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UlincBPIBPLibrary, 2920060281);
+	IMPLEMENT_CLASS(UlincBPIBPLibrary, 1606516797);
 	template<> LINCBPI_API UClass* StaticClass<UlincBPIBPLibrary>()
 	{
 		return UlincBPIBPLibrary::StaticClass();
