@@ -16,18 +16,29 @@ UlincBPIBPLibrary::UlincBPIBPLibrary(const FObjectInitializer& ObjectInitializer
 
 }
 
-bool UlincBPIBPLibrary::WriteToText_String(FString filename, FString content)
+bool UlincBPIBPLibrary::SaveAsFile(FString filename, FString content, bool IsAppend, bool IsAutoBrAtStart)
 {
 	FString BasePath = FPaths::ProjectSavedDir();
-	BasePath = BasePath + '/' + filename + ".txt";
+	BasePath = BasePath + '/' + filename;
 	string path = string(TCHAR_TO_UTF8(*BasePath));
 	fstream file;
-	file.open(path, ios::out);
+	if (IsAppend)
+	{
+		file.open(path, ios::app);
+	}
+	else
+	{
+		file.open(path, ios::out);
+	}
 	if (!file)
 	{
 		return false;
 	}
 	string wcontext = string(TCHAR_TO_UTF8(*content));
+	if (IsAutoBrAtStart)
+	{
+		file << endl;
+	}
 	file << wcontext;
 	file.close();
 	return true;

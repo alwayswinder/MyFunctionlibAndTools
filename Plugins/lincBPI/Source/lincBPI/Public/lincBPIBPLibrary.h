@@ -12,9 +12,11 @@ class UlincBPIBPLibrary : public UBlueprintFunctionLibrary
 
 //	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Execute Sample function", Keywords = "lincBPI sample test testing"), Category = "lincBPITesting")
 //	static float lincBPISampleFunction(float Param);
+//	
 	UFUNCTION(BlueprintCallable, Category = "lincBPI")
-	static bool WriteToText_String(FString filename, FString content);
+	static bool SaveAsFile(FString filename, FString content, bool IsAppend, bool IsAutoBrAtStart);
 
 	UFUNCTION(BlueprintCallable, Category = "lincBPI")
 	static bool AddRowDT(UDataTable* DT, FName NewRowName);
+
 };
