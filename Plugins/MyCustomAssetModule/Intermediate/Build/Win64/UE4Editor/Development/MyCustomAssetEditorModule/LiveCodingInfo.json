@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MyCustomAssetEditorModule.cpp.obj": [
+			"MyCustomAssetAction.cpp.obj",
+			"MyCustomAssetEditorModule.cpp.obj",
+			"MyCustomAssetExporter.cpp.obj",
+			"MyCustomAssetFactory.cpp.obj"
+		],
+		"Module.MyCustomAssetEditorModule.gen.cpp.obj": [
+			"MyCustomAssetEditorModule.init.gen.cpp.obj",
+			"MyCustomAssetExporter.gen.cpp.obj",
+			"MyCustomAssetFactory.gen.cpp.obj"
+		]
+	}
+}

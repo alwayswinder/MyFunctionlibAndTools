@@ -6,9 +6,9 @@
 /NAME:"UE4Editor-lincBPI.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Work\client_art\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
-"D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.cpp.obj"
-"D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.gen.cpp.obj"
-"D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Default.rc2.res"
-/OUT:"D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\UE4Editor-lincBPI.lib"
+"D:\Work\Client_Dev\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.cpp.obj"
+"D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.gen.cpp.obj"
+"D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Default.rc2.res"
+/OUT:"D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\UE4Editor-lincBPI.lib"
 /INCLUDE:IMPLEMENT_MODULE_lincBPI

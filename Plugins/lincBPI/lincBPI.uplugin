@@ -12,14 +12,22 @@
 	"SupportURL": "",
 	"CanContainContent": true,
 	"Installed": true,
-	"Modules": [
-		{
-			"Name": "lincBPI",
-			"Type": "Runtime",
-			"LoadingPhase": "PreLoadingScreen",
-			"WhitelistPlatforms": [
-				"Win64"
-			]
-		}
-	]
+  "Modules": [
+    {
+      "Name": "lincBPI",
+      "Type": "Runtime",
+      "LoadingPhase": "PreLoadingScreen",
+      "WhitelistPlatforms": [
+        "Win64"
+      ]
+    },
+    {
+      "Name": "lincBPIEditor",
+      "Type": "Editor",
+      "LoadingPhase": "PreLoadingScreen",
+      "WhitelistPlatforms": [
+        "Win64"
+      ]
+    }
+  ]
 }

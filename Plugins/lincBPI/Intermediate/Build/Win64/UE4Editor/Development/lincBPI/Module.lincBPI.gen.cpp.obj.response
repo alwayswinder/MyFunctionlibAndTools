@@ -31,12 +31,34 @@
 /wd4838
 /we4668
 /I .
-/I D:\Work\client_art\Plugins\lincBPI\Source\lincBPI\Private
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
+/I D:\Work\Client_Dev\Plugins\lincBPI\Source\lincBPI\Private
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
 /I Runtime
-/I Runtime\CoreUObject\Public
+/I Runtime\Slate\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
+/I Runtime\ApplicationCore\Public
+/I Runtime\RHI\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I Runtime\Json\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
+/I Runtime\SlateCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
+/I Runtime\ImageWrapper\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
+/I Editor
+/I Programs\UnrealLightmass\Public
+/I Developer\Android\AndroidDeviceDetection\Public\Interfaces
+/I Editor\UnrealEd\Classes
+/I Editor\UnrealEd\Public
+/I Editor\BspMode\Public
+/I Developer
+/I Developer\DirectoryWatcher\Public
+/I Editor\Documentation\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
@@ -44,18 +66,6 @@
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
 /I Runtime\Net\Core\Public
-/I Runtime\ApplicationCore\Public
-/I Runtime\RHI\Public
-/I Runtime\Json\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
-/I Runtime\SlateCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
-/I Runtime\InputCore\Classes
-/I Runtime\InputCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
-/I Runtime\Slate\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
-/I Runtime\ImageWrapper\Public
 /I Runtime\Messaging\Public
 /I Runtime\MessagingCommon\Public
 /I Runtime\RenderCore\Public
@@ -99,16 +109,27 @@
 /I Runtime\Experimental\FieldSystem\Source
 /I Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public
 /I Runtime\SignalProcessing\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
-/I Editor
-/I Programs\UnrealLightmass\Public
-/I Developer\Android\AndroidDeviceDetection\Public\Interfaces
-/I Editor\UnrealEd\Classes
-/I Editor\UnrealEd\Public
-/I Editor\BspMode\Public
-/I Developer
-/I Developer\DirectoryWatcher\Public
-/I Editor\Documentation\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Kismet
+/I Editor\Kismet\Classes
+/I Editor\Kismet\Public
+/I Runtime\PhysicsSQ\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolvers
+/I Runtime\Experimental\ChaosSolvers\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionCore
+/I Runtime\Experimental\GeometryCollectionCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionSimulationCore
+/I Runtime\Experimental\GeometryCollectionSimulationCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
+/I Runtime\ClothingSystemRuntimeInterface\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer
+/I Runtime\AudioMixer\Private
+/I Runtime\AudioMixer\Classes
+/I Runtime\AudioMixer\Public
+/I Developer\TargetPlatform\Public
+/I ThirdParty\libSampleRate\Public
+/I Runtime\AudioMixerCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore
+/I Runtime\AnimationCore\Public
 /I Runtime\Projects\Public
 /I Runtime\SandboxFile\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle
@@ -138,12 +159,6 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor
 /I Editor\AudioEditor\Classes
 /I Editor\AudioEditor\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer
-/I Runtime\AudioMixer\Private
-/I Runtime\AudioMixer\Classes
-/I Runtime\AudioMixer\Public
-/I Developer\TargetPlatform\Public
-/I ThirdParty\libSampleRate\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor
 /I Editor\LevelEditor\Public
 /I Developer\Settings\Public
@@ -181,8 +196,6 @@
 /I Runtime\TimeManagement\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks
 /I Runtime\MovieSceneTracks\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore
-/I Runtime\AnimationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem
@@ -216,22 +229,11 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AIModule
 /I Runtime\AIModule\Public
 /I Runtime\AIModule\Classes
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Kismet
-/I Editor\Kismet\Classes
-/I Editor\Kismet\Public
-/I Runtime\PhysicsSQ\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolvers
-/I Runtime\Experimental\ChaosSolvers\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionCore
-/I Runtime\Experimental\GeometryCollectionCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionSimulationCore
-/I Runtime\Experimental\GeometryCollectionSimulationCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
-/I Runtime\ClothingSystemRuntimeInterface\Public
-/I Runtime\AudioMixerCore\Public
-/I D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Inc\lincBPI
-/I D:\Work\client_art\Plugins\lincBPI\Source
-/I D:\Work\client_art\Plugins\lincBPI\Source\lincBPI\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtilities
+/I Runtime\JsonUtilities\Public
+/I D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Inc\lincBPI
+/I D:\Work\Client_Dev\Plugins\lincBPI\Source
+/I D:\Work\Client_Dev\Plugins\lincBPI\Source\lincBPI\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +263,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\Work\client_art\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Yu"D:\Work\client_art\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Fp"D:\Work\client_art\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
-"D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.gen.cpp"
-/FI"D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Definitions.lincBPI.h"
-/Fo"D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.gen.cpp.obj"
+/FI"D:\Work\Client_Dev\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Yu"D:\Work\Client_Dev\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Fp"D:\Work\Client_Dev\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
+"D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.gen.cpp"
+/FI"D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Definitions.lincBPI.h"
+/Fo"D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Module.lincBPI.gen.cpp.obj"
 /TP
 /GR-
 /W4

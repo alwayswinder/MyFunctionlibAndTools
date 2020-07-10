@@ -1,9 +1,19 @@
-D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Definitions.lincBPI.h
-D:/Work/client_art/Plugins/lincBPI/Source/lincBPI/Private/lincBPI.cpp
-D:\Work\client_art\Plugins\lincBPI\Source\lincBPI\Public\lincBPI.h
-D:/Work/client_art/Plugins/lincBPI/Source/lincBPI/Private/lincBPIBPLibrary.cpp
-D:\Work\client_art\Plugins\lincBPI\Source\lincBPI\Public\lincBPIBPLibrary.h
-D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Inc\lincBPI\lincBPIBPLibrary.generated.h
+D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Development\lincBPI\Definitions.lincBPI.h
+D:/Work/Client_Dev/Plugins/lincBPI/Source/lincBPI/Private/lincBPI.cpp
+D:\Work\Client_Dev\Plugins\lincBPI\Source\lincBPI\Public\lincBPI.h
+D:/Work/Client_Dev/Plugins/lincBPI/Source/lincBPI/Private/lincBPIBPLibrary.cpp
+D:\Work\Client_Dev\Plugins\lincBPI\Source\lincBPI\Public\lincBPIBPLibrary.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\JsonUtilities\Public\JsonObjectConverter.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\Json\Public\Dom/JsonObject.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\Json\Public\JsonGlobals.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\Json\Public\Dom/JsonValue.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonReader.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonSerializer.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
+d:\unrealres\ue_4.24\engine\source\runtime\jsonutilities\public\JsonObjectWrapper.h
+D:\UnrealRes\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtilities\JsonObjectWrapper.generated.h
+D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Inc\lincBPI\lincBPIBPLibrary.generated.h
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\iostream
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\istream
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ostream
@@ -47,8 +57,8 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xstring_insert.h
 D:\UnrealRes\UE_4.24\Engine\Source\Editor\UnrealEd\Public\DataTableEditorUtils.h
 d:\unrealres\ue_4.24\engine\source\editor\unrealed\public\Kismet2/ListenerManager.h
-D:/Work/client_art/Plugins/lincBPI/Source/lincBPI/Private/MyDeveloperSettings.cpp
-D:\Work\client_art\Plugins\lincBPI\Source\lincBPI\Public\MyDeveloperSettings.h
+D:/Work/Client_Dev/Plugins/lincBPI/Source/lincBPI/Private/MyDeveloperSettings.cpp
+D:\Work\Client_Dev\Plugins\lincBPI\Source\lincBPI\Public\MyDeveloperSettings.h
 D:\UnrealRes\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/DeveloperSettings.h
 D:\UnrealRes\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DeveloperSettings.generated.h
-D:\Work\client_art\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Inc\lincBPI\MyDeveloperSettings.generated.h
+D:\Work\Client_Dev\Plugins\lincBPI\Intermediate\Build\Win64\UE4Editor\Inc\lincBPI\MyDeveloperSettings.generated.h

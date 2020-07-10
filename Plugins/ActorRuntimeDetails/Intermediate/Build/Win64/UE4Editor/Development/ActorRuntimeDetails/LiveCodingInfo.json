@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ActorRuntimeDetails.cpp.obj": [
+			"ActorRuntimeDetails.cpp.obj",
+			"ActorRuntimeDetailsCommands.cpp.obj",
+			"ActorRuntimeDetailsStyle.cpp.obj"
+		]
+	}
+}

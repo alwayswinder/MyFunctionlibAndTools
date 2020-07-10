@@ -10,7 +10,6 @@ public class lincBPI : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"lincBPI/Public"
 				
 				// ... add public include paths required here ...
 			}
@@ -30,7 +29,8 @@ public class lincBPI : ModuleRules
 			new string[]
 			{
 				"Core",
-				
+                "CoreUObject",
+                "Engine",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -39,12 +39,12 @@ public class lincBPI : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"CoreUObject",
-				"Engine",
 				"Slate",
 				"SlateCore",
                 "UnrealEd",
-				// ... add private dependencies that you statically link with here ...	
+				// ... add private dependencies that you statically link with here ...
+			    "JsonUtilities",
+                "Json",
 			}
 			);
 		

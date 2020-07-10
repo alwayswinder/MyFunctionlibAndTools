@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MyCustomAssetModule",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "lin",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+  "Modules": [
+    {
+      "Name": "MyCustomAssetModule",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "MyCustomAssetEditorModule",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

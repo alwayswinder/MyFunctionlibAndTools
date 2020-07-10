@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodelincBPI_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x7E9B74BB,
-				0x7DB23925,
+				0xF81B0D59,
+				0xB09F9ED4,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

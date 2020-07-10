@@ -1,0 +1,3 @@
+D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Intermediate\Build\Win64\UE4Editor\Development\MyCustomAssetModule\Definitions.MyCustomAssetModule.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

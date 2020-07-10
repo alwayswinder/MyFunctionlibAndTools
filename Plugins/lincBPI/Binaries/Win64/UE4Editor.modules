@@ -2,6 +2,7 @@
 	"BuildId": "10570792",
 	"Modules": 
 	{
-		"lincBPI": "UE4Editor-lincBPI.dll"
+		"lincBPI": "UE4Editor-lincBPI.dll",
+		"lincBPIEditor": "UE4Editor-lincBPIEditor.dll"
 	}
 }

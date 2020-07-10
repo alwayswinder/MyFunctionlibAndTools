@@ -1,0 +1,2 @@
+D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Intermediate\Build\Win64\UE4Editor\Development\MyCustomAssetEditorModule\Definitions.MyCustomAssetEditorModule.h
+D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Source\MyCustomAssetEditorModule\Public\MyCustomAssetEditorModule.h

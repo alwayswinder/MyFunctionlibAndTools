@@ -1,0 +1,13 @@
+D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Intermediate\Build\Win64\UE4Editor\Development\MyCustomAssetEditorModule\Definitions.MyCustomAssetEditorModule.h
+D:/Work/Client_Dev/Plugins/MyCustomAssetModule/Intermediate/Build/Win64/UE4Editor/Inc/MyCustomAssetEditorModule/MyCustomAssetEditorModule.init.gen.cpp
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:/Work/Client_Dev/Plugins/MyCustomAssetModule/Intermediate/Build/Win64/UE4Editor/Inc/MyCustomAssetEditorModule/MyCustomAssetExporter.gen.cpp
+D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Source\MyCustomAssetEditorModule/Public/MyCustomAssetExporter.h
+D:\UnrealRes\UE_4.24\Engine\Source\Runtime\Engine\Classes\Exporters/Exporter.h
+D:\UnrealRes\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Exporter.generated.h
+d:\work\client_dev\plugins\mycustomassetmodule\intermediate\build\win64\ue4editor\inc\mycustomasseteditormodule\MyCustomAssetExporter.generated.h
+D:/Work/Client_Dev/Plugins/MyCustomAssetModule/Intermediate/Build/Win64/UE4Editor/Inc/MyCustomAssetEditorModule/MyCustomAssetFactory.gen.cpp
+D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Source\MyCustomAssetEditorModule/Public/MyCustomAssetFactory.h
+D:\UnrealRes\UE_4.24\Engine\Source\Editor\UnrealEd\Public\EditorReimportHandler.h
+d:\work\client_dev\plugins\mycustomassetmodule\intermediate\build\win64\ue4editor\inc\mycustomasseteditormodule\MyCustomAssetFactory.generated.h

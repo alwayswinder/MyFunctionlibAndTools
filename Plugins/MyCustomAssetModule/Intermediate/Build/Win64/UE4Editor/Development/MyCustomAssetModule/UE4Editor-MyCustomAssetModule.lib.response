@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyCustomAssetModule.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Work\Client_Dev\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Intermediate\Build\Win64\UE4Editor\Development\MyCustomAssetModule\MyCustomAssetModule.cpp.obj"
+"D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Intermediate\Build\Win64\UE4Editor\Development\MyCustomAssetModule\MyCustomAsset.gen.cpp.obj"
+"D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Intermediate\Build\Win64\UE4Editor\Development\MyCustomAssetModule\MyCustomAssetModule.init.gen.cpp.obj"
+"D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Intermediate\Build\Win64\UE4Editor\Development\MyCustomAssetModule\Default.rc2.res"
+/OUT:"D:\Work\Client_Dev\Plugins\MyCustomAssetModule\Intermediate\Build\Win64\UE4Editor\Development\MyCustomAssetModule\UE4Editor-MyCustomAssetModule.lib"
+/INCLUDE:IMPLEMENT_MODULE_MyCustomAssetModule

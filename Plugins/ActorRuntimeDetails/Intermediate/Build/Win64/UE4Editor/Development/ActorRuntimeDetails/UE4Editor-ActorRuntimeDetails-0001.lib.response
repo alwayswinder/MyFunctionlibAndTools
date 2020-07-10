@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ActorRuntimeDetails-0001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Work\Client_Dev\Intermediate\Build\Win64\CivilizationOnlineEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"D:\Work\Client_Dev\Plugins\ActorRuntimeDetails\Intermediate\Build\Win64\UE4Editor\Development\ActorRuntimeDetails\Module.ActorRuntimeDetails.cpp.obj"
+"D:\Work\Client_Dev\Plugins\ActorRuntimeDetails\Intermediate\Build\Win64\UE4Editor\Development\ActorRuntimeDetails\Default.rc2.res"
+/OUT:"D:\Work\Client_Dev\Plugins\ActorRuntimeDetails\Intermediate\Build\Win64\UE4Editor\Development\ActorRuntimeDetails\UE4Editor-ActorRuntimeDetails-0001.lib"
+/INCLUDE:IMPLEMENT_MODULE_ActorRuntimeDetails
